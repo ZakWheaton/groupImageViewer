@@ -96,12 +96,11 @@ textarea {
 .thumbBar {
 	padding: 20px;
 	background: #cccccc;
-	position: absolute;
+	position: fixed;
 	bottom: 0px;
-	left: 50%;
-	width: 80%;
-	margin:-10% 0 0 -40%;
-	overflow: scroll;
+	background: rgba(0, 0, 0, 0.5);
+	width: 100%;
+	overflow: auto;
 	overflow-y: hidden;
 	white-space: nowrap;
 }
