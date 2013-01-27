@@ -127,10 +127,12 @@ textarea {
     display:block;
     margin: 0 auto;
     max-width: 1024px;
+    max-height: 1000px;
 }
 
 .currentContainer img {
     width: 100%;
+    max-height: 1000px;
 }
 
 #dropbox:focus{
