@@ -122,22 +122,21 @@ textarea {
 
 .currentContainer {
 	background: #5b5b5b;
-	padding: 15px;
+	padding: 0.5em;
 	border-radius: 10px;
 	text-align: center;
-	width: 500px;
-	height: 500px;
-	position:absolute;
-	top: 25%;
-	left: 50%;
-	margin:-10% 0 0 -250px;
+    display:block;
+    margin: 0 auto;
+    max-width: 1024px;
 }
 
 .currentContainer img {
-	max-width: 500px;
-	max-height: 500px;
+    width: 100%;
 }
 
+#dropbox:focus{
+   border: 4px dashed #5b5b5b;
+}
 
 
 
